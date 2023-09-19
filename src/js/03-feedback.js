@@ -30,6 +30,7 @@ function onSubmit(event) {
   
     if (email === "" || password === "") {
         alert("Please fill in all the fields!");
+        return
     } else {
         const enteredForm = {
             Email: email,
